@@ -4,13 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href= 
-    "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
-    <script src= 
-    "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> 
-    </script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body{
+            position: relative;
+        }
+
+        p{
+            font-size: 18px;
+        }
+
+        #section1{padding-top:50px; height: 500px; color: white; background-color: orange;}
+        #section1{padding-top:50px; height: 500px; color: green; background-color: white;}
+    </style>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                   <span class="icon"></span>
+                   <span class="icon"></span>
+                   <span class="icon"></span>
+                </button>
+                <a class="navbar-brand">Codingal</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collpase" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#section1">#section1</a></li>
+                        <li><a href="#section2">#section2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="section1" class="container-fluid">
+        <h1>section 1</h1>
+        <h3>Codingal</h3>
+        <h5>is a fast-growing, mission-driven online coding platform dedicated to teaching children aged 5 to 18 computer science and technology skills.
+             Founded in 2020 by IIT alumni, it operates globally from its headquarters in Bengaluru, Karnataka, empowering over 500,000 students with live 1-on-1 classes and interactive courses in Scratch, Python, AI, and game development. By using a standards-aligned, STEM.org accredited curriculum, Codingal 
+             makes programming an engaging and creative subject for young learners. 
+             The platform's unique human-and-AI teaching model helps develop critical problem-solving and logical thinking skills, while its community-driven hackathons and National Coding Olympiad motivate kids to showcase their real-world projects and build strong technological portfolios.</h5>
+    </div>
+
+    <div id="section2" class="container-fluid">
+       is a fast-growing, mission-driven online coding platform dedicated to teaching children aged 5 to 18 computer science and technology skills.
+             Founded in 2020 by IIT alumni, it operates globally from its headquarters in Bengaluru, Karnataka, empowering over 500,000 students with live 1-on-1 classes and interactive courses in Scratch, Python, AI, and game development. By using a standards-aligned, STEM.org accredited curriculum, Codingal 
+             makes programming an engaging and creative subject for young learners. 
+             The platform's unique human-and-AI teaching model helps develop critical problem-solving and logical thinking skills, while its community-driven hackathons and National Coding Olympiad motivate kids to showcase their real-world projects and build strong technological portfolios. 
+    </div>
+    <p>this is the scroll section</p>
 </body>
 </html>
